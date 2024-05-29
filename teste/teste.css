@@ -1,0 +1,35 @@
+body {
+    background: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    border: none;
+    grid-template-columns: repeat(2, 150px);
+    gap: 30px;
+} 
+
+
+div {
+    display: grid;
+    place-items: center;
+    background: #f1f1f1;
+    height: 150px;
+    width: 150px;
+    font-size: 10px;
+    text-align: center;
+} 
+
+img {
+    width: 90px;
+}
+h1 {
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 0px;
+}
